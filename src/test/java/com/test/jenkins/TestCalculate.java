@@ -22,7 +22,7 @@ public class TestCalculate {
 	
 	@Test
 	public void testSum_Negative(){
-		assertNotEquals("Expected value is same", 11L, calculate.sum(5, 5));
+		assertFalse("Expected value is same", 11L== calculate.sum(5, 5));
 	}
 
 }
